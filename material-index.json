@@ -1,0 +1,17 @@
+[
+  {
+    "path": "fixtures/completed.csv",
+    "sha256": "423aac85e43396e0008a31f1c38829a15ed2eed846ebb30638e66f6fb20d3b4e",
+    "size_bytes": 139
+  },
+  {
+    "path": "fixtures/coverage.json",
+    "sha256": "59627179252c1157b7882bd433729988fb52c0fbbc0125635a1ad3742aa090f3",
+    "size_bytes": 222
+  },
+  {
+    "path": "fixtures/factors.json",
+    "sha256": "a0ac9db2ac1c6f8581999aa8eabb164e215fcfdeb2e6bcd1f90d4d57baaf011e",
+    "size_bytes": 270
+  }
+]

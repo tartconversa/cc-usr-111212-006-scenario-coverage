@@ -1,0 +1,5 @@
+trial_id,floor,load,temperature,status
+t1,dry,low,cool,complete
+t2,wet,low,cool,complete
+t3,dry,low,cool,complete
+t4,dry,high,warm,planned

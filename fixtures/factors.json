@@ -1,0 +1,23 @@
+{
+  "domains": {
+    "floor": [
+      "dry",
+      "wet"
+    ],
+    "load": [
+      "low",
+      "high"
+    ],
+    "temperature": [
+      "cool",
+      "warm"
+    ]
+  },
+  "forbidden": [
+    {
+      "floor": "wet",
+      "load": "high"
+    }
+  ],
+  "implications": []
+}

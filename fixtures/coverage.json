@@ -1,0 +1,15 @@
+{
+  "strengths": [
+    2,
+    3
+  ],
+  "priority_factor_sets": [
+    [
+      "floor",
+      "load"
+    ]
+  ],
+  "satisfiability_node_budget": 10000,
+  "page_size": 100,
+  "unknown_policy": "retain_in_denominator_bounds"
+}
