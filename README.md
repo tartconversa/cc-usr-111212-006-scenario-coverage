@@ -1,12 +1,12 @@
 # 受约束工况组合的覆盖缺口与不可达证明
 
-本项目是虚构台架数据分析需求的初始输入材料。只有Python文件读取器，尚未实现题目要求的统计检验、求解、配准或分析功能。所有仪器、试件、对象与人工标签均为合成，不涉及模型训练、生成结果或运动轨迹。
+本项目保存虚构台架测量表及Python读取工具。当前工具加载文件并检查输入，不执行统计检验、求解、配准或分析。所有仪器、试件、对象与人工标签均为合成。
 
 ## 字段与单位
 
 factors的变量域均有穷。forbidden项是不可同时满足的部分赋值；implications为if部分赋值则then部分赋值。completed每行必须提供所有因素，status=complete才是完成试次。
 
-material-index.json记录全部输入内容哈希；fixtures是只读原始资料，计算输出应放.workspace-output。手算例和配置口径在完整User Prompt中，输入读取测试不代表分析功能已完成。
+material-index.json记录全部输入内容哈希；fixtures保存原始资料与配置，计算输出可放.workspace-output，原始资料不应被覆盖。
 
 ## 运行已有读取器
 
